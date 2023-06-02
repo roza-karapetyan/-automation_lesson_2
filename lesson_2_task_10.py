@@ -1,8 +1,8 @@
-def bank (x,y):
-    localX = x
+def bank(x,y):
+    total_contribution = x
     for i in range(y):
-        localX = localX*0.1 +localX
-    print(localX)
+        total_contribution = total_contribution*0.1 + total_contribution
+    print(total_contribution)
         
        
 bank (5,4)
