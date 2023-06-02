@@ -1,14 +1,20 @@
-def month_to_season(n):
-    if n == 1 or n == 2 or n == 12:
-        print ("Зима")
-        
-    if n == 3 or n == 4 or n == 5:
-        print ("Весна")
-    
-    if n ==6 or n == 7 or n == 8:
-        print ("Лето")
-    
-    if n == 9 or n == 10 or n == 11:
-        print ("Осень")
 
-month_to_season(5)
+def month_to_season(month):
+    if month in [1, 2, 12]:
+        print("Зима")
+
+    if month in [3, 4, 5]:
+        print("Весна")
+
+    if month in [6, 7, 8]:
+        print("Лето")
+
+    if month in [9, 10, 11]:
+        print("Осень")
+
+    if month > 12 or month < 1:
+        print("Введите число в диапазоне от 1 до 12")
+
+
+month_to_season(1)
+
