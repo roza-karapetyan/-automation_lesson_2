@@ -13,7 +13,7 @@ def month_to_season(month):
         print("Осень")
 
     if month > 12 or month < 1:
-        print("Введите число в диапазоне от 1 до 12")
+        print("Введите число от 1 до 12")
 
 
 month_to_season(1)
