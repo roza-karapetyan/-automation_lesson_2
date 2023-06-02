@@ -1,4 +1,4 @@
-def is_year_leap (n):
+def is_year_leap(n):
     if (n % 4 == 0):
         print("год ", n,":", True)
     else:
